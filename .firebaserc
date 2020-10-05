@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "universal-testing223": {
+      "hosting": {
+        "angular-testing": [
+          "universal-testing223"
+        ]
+      }
+    }
+  }
+}

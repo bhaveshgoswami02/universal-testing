@@ -121,8 +121,16 @@
               "devServerTarget": "angular-testing:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "angular-testing"
+    }
+  },
+  "defaultProject": "angular-testing",
+  "cli": {
+    "analytics": "8b6dd3d9-68af-4f7f-aeaf-a8e9aa75afaf"
+  }
 }
